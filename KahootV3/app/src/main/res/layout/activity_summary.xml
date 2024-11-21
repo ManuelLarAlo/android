@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_summary_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resumen del Juego"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_total_questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total de preguntas: "
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tv_correct_answers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de aciertos: "
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tv_wrong_answers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de fallos: "
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_return_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú"
+        android:background="?android:attr/selectableItemBackground" />
+</LinearLayout>
+
+
+
